@@ -1,0 +1,29 @@
+# Python toolchain noise
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Build artefacts
+dist/
+build/
+*.egg-info/
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,5 @@
+(exists x. (D(x) -> (forall y. D(y))))
+(exists x. ((forall y. D(y)) -> D(x)))
+(exists x. (D(x) -> (forall y. (D(y) \/ E(y)))))
+(exists x. ((D(x) /\ E(x)) -> (forall y. (D(y) /\ E(y)))))
+(exists x. (D(x) -> (forall y. (E(y) -> D(y)))))

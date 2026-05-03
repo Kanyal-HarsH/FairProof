@@ -1,0 +1,26 @@
+Hypothesis tests for HFB+M+RG
+
+H1: C4 strictly improves solved count over C0 (whole corpus)
+  result    : discordant pairs: C4 wins=12, C0 wins=0, n_disc=12, exact one-sided p=0.0002
+  threshold : exact one-sided p < 0.05  =>  PASS
+
+H2: C4 does not regress in any category
+  result    : ALTERNATION: C0=5 C4=6; DRINKER: C0=5 C4=5; HOU: C0=14 C4=16; ILTP: C0=0 C4=0; INVALID_OPEN: C0=0 C4=0; PELLETIER: C0=25 C4=33; PHP: C0=1 C4=2
+  threshold : s_C4(c) >= s_C0(c) for all c  =>  PASS
+
+H3: RG closes formulas B alone cannot (C3 vs C1 on ALTERNATION + HOU)
+  result    : per-category delta(C3-C1): ALTERNATION: delta=2; HOU: delta=1; aggregate McNemar one-sided p=0.1250 (n_disc=3, descriptive)
+  threshold : strict gain in >= 2 of 2 categories  =>  PASS
+
+H4: M overhead bounded on HOU (median wall-time C2/C1 <= 1.5)
+  result    : median_ratio=1.057943720101004, n=15, Wilcoxon p=0.03533935546875, note=
+  threshold : median ratio <= 1.5  =>  PASS
+
+H5: Per-category statistical significance reached (McNemar exact, two-sided)
+  result    : ALTERNATION: only_C0=0 only_C4=1 p=1.000; DRINKER: only_C0=0 only_C4=0 p=1.000; HOU: only_C0=0 only_C4=2 p=0.500; ILTP: only_C0=0 only_C4=0 p=1.000; INVALID_OPEN: only_C0=0 only_C4=0 p=1.000; PELLETIER: only_C0=0 only_C4=8 p=0.008; PHP: only_C0=0 only_C4=1 p=1.000
+  threshold : p < 0.05 in >= 1 category  =>  PASS
+
+H6: C4 reaches per-node runtime parity with C0 on solved-by-both
+  result    : ALTERNATION: r=1.43 (n=5, Wilcoxon p=None); DRINKER: r=1.31 (n=5, Wilcoxon p=None); HOU: r=1.22 (n=14, Wilcoxon p=0.0001220703125); PELLETIER: r=1.22 (n=25, Wilcoxon p=1.4901161193847656e-06); PHP: r=0.50 (n=1, Wilcoxon p=None); cats_with_r<1_and_sig=0/5
+  threshold : r(c) < 1 with Wilcoxon p < 0.05 in >= 4 of 5 non-empty categories  =>  FAIL  (future work: per-node Python-overhead reduction)
+

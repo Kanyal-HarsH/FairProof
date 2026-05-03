@@ -1,0 +1,8 @@
+dataset,source,count,validity_status,n_easy,n_medium,n_hard,n_challenging,n_non_theorem
+ALTERNATION,parametric quantifier-alternation generator,10,"COUNTERSAT,THEOREM",0,5,1,0,4
+DRINKER,Smullyan 1968 and variants,5,THEOREM,5,0,0,0,0
+HOU,Hou 2021 textbook (placeholder; refine after reading),16,THEOREM,9,5,2,0,0
+ILTP,ILTP ALG211+1,5,THEOREM,0,0,0,5,0
+INVALID_OPEN,hand-crafted,12,COUNTERSAT,0,0,0,0,12
+PELLETIER,TPTP SYN001+1; Pelletier 2 [Pel86],57,THEOREM,20,5,8,24,0
+PHP,Cook-Reckhow 1979,5,THEOREM,1,0,1,3,0

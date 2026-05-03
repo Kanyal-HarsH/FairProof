@@ -1,0 +1,6 @@
+line	label	status	tags	source
+1	drinker_canonical	THEOREM	DRINKER,FOL_QHEAVY	Smullyan 1968 and variants
+2	drinker_dual	THEOREM	DRINKER,FOL_QHEAVY	Smullyan 1968 and variants
+3	drinker_var1	THEOREM	DRINKER,FOL_QHEAVY	Smullyan 1968 and variants
+4	drinker_var2	THEOREM	DRINKER,FOL_QHEAVY	Smullyan 1968 and variants
+5	drinker_var3	THEOREM	DRINKER,FOL_QHEAVY	Smullyan 1968 and variants

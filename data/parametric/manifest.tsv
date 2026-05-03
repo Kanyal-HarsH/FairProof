@@ -1,0 +1,11 @@
+line	label	status	tags	source
+1	param_01	THEOREM	ALTERNATION,FOL_QHEAVY	parametric quantifier-alternation generator
+2	param_02	COUNTERSAT	ALTERNATION,FOL_QHEAVY	parametric quantifier-alternation generator
+3	param_03	THEOREM	ALTERNATION,FOL_QHEAVY	parametric quantifier-alternation generator
+4	param_04	COUNTERSAT	ALTERNATION,FOL_QHEAVY	parametric quantifier-alternation generator
+5	param_05	THEOREM	ALTERNATION,FOL_QHEAVY	parametric quantifier-alternation generator
+6	param_06	THEOREM	ALTERNATION,FOL_QHEAVY	parametric quantifier-alternation generator
+7	param_07	THEOREM	ALTERNATION,FOL_QHEAVY	parametric quantifier-alternation generator
+8	param_08	THEOREM	ALTERNATION,FOL_QHEAVY	parametric quantifier-alternation generator
+9	param_09	COUNTERSAT	ALTERNATION,FOL_QHEAVY	parametric quantifier-alternation generator
+10	param_10	COUNTERSAT	ALTERNATION,FOL_QHEAVY	parametric quantifier-alternation generator

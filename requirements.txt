@@ -1,0 +1,19 @@
+# Direct project dependencies, exact pins.
+# Tested on Python 3.13.7. To install:  python -m pip install -r requirements.txt
+
+# Parsing the course-syntax grammar and the TPTP-FOF grammar
+lark==1.3.1
+
+# Test runner (tests/test_*.py)
+pytest==9.0.3
+
+# Numerics and statistics for the analyser
+numpy==2.4.4
+scipy==1.17.1
+pandas==3.0.2
+
+# Plots (SVG output) for results/figures/
+matplotlib==3.10.9
+
+# Per-cell peak memory metric in the experiment harness
+psutil==7.2.2

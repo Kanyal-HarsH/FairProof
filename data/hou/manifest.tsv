@@ -1,0 +1,17 @@
+line	label	status	tags	source
+1	hou_ex01	THEOREM	HOU	Hou 2021 textbook (placeholder; refine after reading)
+2	hou_ex02	THEOREM	HOU	Hou 2021 textbook (placeholder; refine after reading)
+3	hou_ex03	THEOREM	HOU	Hou 2021 textbook (placeholder; refine after reading)
+4	hou_ex04	THEOREM	HOU	Hou 2021 textbook (placeholder; refine after reading)
+5	hou_ex05	THEOREM	HOU	Hou 2021 textbook (placeholder; refine after reading)
+6	hou_ex06	THEOREM	HOU	Hou 2021 textbook (placeholder; refine after reading)
+7	hou_ex07	THEOREM	HOU	Hou 2021 textbook (placeholder; refine after reading)
+8	hou_ex08	THEOREM	HOU	Hou 2021 textbook (placeholder; refine after reading)
+9	hou_ex09	THEOREM	HOU,FOL_QHEAVY	Hou 2021 Lemma 2.1 (NK p52) and Lemma 2.6 (LK p61)
+10	hou_ex10	THEOREM	HOU,ALTERNATION	Hou 2021 Lemma 2.3 (NK p54) and Lemma 2.7 (LK p62)
+11	hou_ex11	THEOREM	HOU,FOL_QLIGHT	Hou 2021 Lemma 2.5 (LK p61); Exercise 2.3.1
+12	hou_ex12	THEOREM	HOU,FOL_QLIGHT	Hou 2021 Exercise 2.3.2 (NK p57)
+13	hou_ex13	THEOREM	HOU,ALTERNATION	Hou 2021 Exercise 2.3.3 (NK p57)
+14	hou_ex16	THEOREM	HOU,FOL_QLIGHT	Hou 2021 existential distribution over disjunction (textbook style)
+15	hou_ex17	THEOREM	HOU,FOL_QHEAVY	Hou 2021 5-step implication chain (textbook style; deepens hou_ex14)
+16	hou_ex19	THEOREM	HOU,ALTERNATION,FOL_QHEAVY	Hou 2021 alternation depth-3 (textbook style; deepens hou_ex10)

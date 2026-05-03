@@ -1,0 +1,3 @@
+source	version	url	archive	sha256	fetched_at
+TPTP	9.2.1	https://tptp.org/TPTP/Distribution/TPTP-v9.2.1.tgz	TPTP-v9.2.1.tgz	68806c595a2670fbda152b1747a38d3ab56d79a3a095000e67d63378bf00ecf4	2026-05-01T10:51:01Z
+ILTP	1.1.2	https://www.iltp.de/download/ILTP-v1.1.2-firstorder.tar.gz	ILTP-v1.1.2-firstorder.tar.gz	e53e2ac64a84f076692ce13d85df60369c343dda08d073f8ee7eea3ac08145ec	2026-05-01T10:51:01Z
