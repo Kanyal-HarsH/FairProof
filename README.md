@@ -5,7 +5,7 @@
 ![Corpus](https://img.shields.io/badge/corpus-94%20theorems-blue)
 ![Reps](https://img.shields.io/badge/reps-5-blue)
 ![Hypotheses](https://img.shields.io/badge/H1...H6-5%20pass%20%2F%201%20fail-yellowgreen)
-![License](https://img.shields.io/badge/license-academic-lightgrey)
+
 
 A first-order logic theorem prover. Two engines share the same rule
 machinery: the **baseline** (Algorithm 2) and an improved variant
